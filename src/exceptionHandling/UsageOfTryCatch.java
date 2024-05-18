@@ -9,6 +9,8 @@ public class UsageOfTryCatch {
 			System.out.println("Rest of the code");
 		}catch(ArithmeticException e) {
 			System.out.println("ArithmaticException->"+e.getMessage());
+		}finally {
+			System.out.println("Finally block-Always executed");
 		}
 	}
 
